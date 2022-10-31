@@ -14,7 +14,6 @@ The pricing of match outcomes (i.e. setting the odds) consists of the administra
 
 The goal of the course was to integrate a database to a web application, and to implement proper validation of forms. Therefore, the odds calculation mechanism was an extra feature from this vantage point, and significantly less time was spent on it. As a result, if the probability of an outcome (1, X or 2) is greater or equal to 90 %, then the odds have to be set manually, since this case is not handled automatically.
 
-[Bet1X2App](https://bet1x2-app.herokuapp.com/)
 
 ## Vedonvälittäjä Bet1X2
 
@@ -81,11 +80,7 @@ Admin näkee:
 
 * admin voi asettaa ottelun tuloksen, mikä käynnistää tuloksesta riippuvien tietokohteiden päivityksen
 
-### Linkki herokuun
-
-[Bet1X2App](https://bet1x2-app.herokuapp.com/)
-
-Huomioita:
+### Huomioita
 
 Jos tapahtuman todennäköisyys on 90 % tai yli niin kertoimet menevät alle 1:n johtuen puutteellisesta laskentamekanismista, ja tällöin kertoimia pitää säätää manuaalisesti jotta lomake validoidaan. 
 
