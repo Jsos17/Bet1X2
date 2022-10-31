@@ -2,6 +2,8 @@
 
 ## Laboratory work: Database application
 
+:exclamation: **NOTE: I have deleted the Heroku application due to changes in Heroku free product plan policies.** :exclamation:
+
 ### Bookmaker Bet1X2
 
 Bet1X2 is a fictional bookmaker which offers only 1X2 type betting (the possible outcomes of a sporting event, for example a soccer match, are *a home win (1)*, *a draw (X)* or *an away win (2)*). Typically, this type of betting is offered in Europe for football (soccer) betting. 
